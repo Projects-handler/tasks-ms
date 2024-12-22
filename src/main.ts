@@ -9,6 +9,6 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   await app.listen(PORT);
 
-  logger.log(`Tasks microservices running on port ${PORT}`);
+  logger.log(`Tasks microservice running on port ${PORT}`);
 }
 bootstrap();
